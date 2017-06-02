@@ -97,3 +97,8 @@ footer {
   color: white;
   padding-top: 7px;
 }
+
+#work img{
+	max-width: 100%;
+	height: auto;
+}
