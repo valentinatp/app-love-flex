@@ -97,8 +97,24 @@ footer {
   color: white;
   padding-top: 7px;
 }
+.fotos{
+	max-width: 30%;
+	height: auto;
+}
 
-#work img{
+.notebook{
 	max-width: 100%;
 	height: auto;
 }
+
+.img-container{
+	display: flex;
+	align-content: stretch;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 5px;
+
+}
+
