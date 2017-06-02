@@ -97,6 +97,16 @@ footer {
   color: white;
   padding-top: 7px;
 }
+
+#work h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+#work p{
+	text-align: center;
+}
+
 .fotos{
 	max-width: 30%;
 	height: auto;
