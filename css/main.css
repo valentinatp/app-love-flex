@@ -10,6 +10,8 @@ body {
   font-weight: 700;
   padding: 21px;
   display: inline-block;
+  text-decoration: none;
+  color: #000;
 }
 
 .flex-container{
@@ -58,3 +60,16 @@ body {
 .text-home{
 	font-size: 2.4em;
 }
+
+.btn-home {
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
