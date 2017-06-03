@@ -108,23 +108,25 @@ footer {
 }
 
 .fotos{
-	max-width: 30%;
-	height: auto;
-}
-
-.notebook{
 	max-width: 100%;
 	height: auto;
 }
 
-.img-container{
-	display: flex;
-	align-content: stretch;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin: 5px;
-
+.cosa.flex-container{
+	flex-direction: column;
 }
 
+.cosa img{
+	max-width: 100%;
+}
+
+.productos.flex-container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.img-container{
+	width: 400px;
+	height: 400px;
+}
